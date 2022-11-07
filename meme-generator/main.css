@@ -1,0 +1,22 @@
+body{
+  /* background: */
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #efeff155, #efeff1 );
+}
+#meme_text {
+  background-color: transparent;
+  font-size: 40px;
+  font-family: "Impact";
+  color: white;
+  text-shadow: black 0px 0px 10px;
+  width: 600px;
+  position: absolute;
+  left: 15px;
+  top: 400px;
+  
+}
+
+#user_picture{
+  margin-top: 10px;
+}

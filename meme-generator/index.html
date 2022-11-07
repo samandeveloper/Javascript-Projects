@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>   
+
+</head>
+<body>
+    <form>
+        Select a picture <input type="file" id="user_picture" onchange="update_image()"><br/><br/>
+        Meme form:<input type="text" id="user_text" oninput="update_text()" maxlength="70"><br/><br/>
+        <div id="meme_text">Example text here</div>
+        <div id="meme_picture"><img src="" height="500" width="600"></div>
+    </form>
+    <!-- js script should be in the body at the end. Otherwise it will give an error -->
+    <script src='main.js'></script>
+</body>
+</html>
