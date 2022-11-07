@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form Validation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+    
+</head>
+<body>
+    <!-- we can validate a form in js -->
+    <form name="myForm" action="" onsubmit="return validateForm()">
+        <h1 align="center">User Registration</h1>
+        <table align="center" border="3" cellspacing="3" cellpadding="3">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name"/></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="email"/></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="text" name="phone"/></td>
+            </tr>
+            <tr>
+                <td>Subject</td>
+                <td>
+                    <select name="subject">
+                        <option value="0" selected>Select</option>
+                        <option value="1">HTML</option>
+                        <option value = "2">JavaScript</option>
+                        <option value = "3">CSS</option>
+                        <option value = "4">JSP</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <!-- for the error line if the user insert wrong iformation -->
+        <p id="demo" style="color:red; text-align:center"></p>
+        <!-- button -->
+        <div style="text-align:center" ><input id="btn" type="submit" value="submit"/></div>
+    </form>
+    
+    	<!-- js script should be in the body at the end. Otherwise it will give an error -->
+        <script src='main.js'></script>
+</body>
+</html>
