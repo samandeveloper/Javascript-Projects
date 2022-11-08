@@ -1,6 +1,5 @@
 // return false means not submitting a submit button (do not submit the form)
 
-
 function validateForm(){
    // name 
    if(document.myForm.name.value==""){
