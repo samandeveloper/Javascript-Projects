@@ -1,0 +1,44 @@
+body{
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image: radial-gradient(circle at center center, #ffffff, #ffffff), repeating-radial-gradient(circle at center center, #ffffff, #ffffff, 10px, transparent 20px, transparent 10px);
+  background-blend-mode: multiply;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  margin: 40px auto;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: blue;
+}
+
+.apple {
+  background-color: purple;
+}
+
+.start{
+  margin: 30px auto;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: rgba(128, 0, 128, 0.689);
+}
+
+.score{
+  margin: 2px auto;
+  text-align: center;
+  font-size: 20px;
+}
+
