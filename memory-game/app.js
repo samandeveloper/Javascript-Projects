@@ -88,7 +88,7 @@ function checkForMatch(){
   console.log(eachImage[cardsChosenId[1]])
   //1. if two images are the same
   if(cardsChosenId[0] !== cardsChosenId[1] && cardsChosenName[0] === cardsChosenName[1]){
-    alert("You found the match")
+    // alert("You found the match")
     //make the matches cards white
     eachImage[cardsChosenId[0]].setAttribute('src', 'images/white.png')
     eachImage[cardsChosenId[1]].setAttribute('src', 'images/white.png')
@@ -118,7 +118,7 @@ function checkForMatch(){
   else  {
     eachImage[cardsChosenId[0]].setAttribute('src', 'images/blank.png')
     eachImage[cardsChosenId[1]].setAttribute('src', 'images/blank.png')
-    alert('Sorry, try again')
+    // alert('Sorry, try again')
   }
   
   cardsChosenId = []
